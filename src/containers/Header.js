@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import NavMenu from "../components/NavMenu"
 
 export default function Header() {
