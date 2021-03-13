@@ -32170,7 +32170,7 @@ function Header() {
   }, /*#__PURE__*/_react.default.createElement("img", {
     src: _menuIcon.default,
     alt: "menu icon"
-  })), showMenu && /*#__PURE__*/_react.default.createElement(_NavMenu.default, null)));
+  }))), showMenu && /*#__PURE__*/_react.default.createElement(_NavMenu.default, null));
 }
 },{"react":"node_modules/react/index.js","../components/NavMenu":"src/components/NavMenu.js","styled-components":"node_modules/styled-components/dist/styled-components.browser.esm.js","../images/menu-icon.svg":"src/images/menu-icon.svg"}],"src/pages/App.js":[function(require,module,exports) {
 "use strict";

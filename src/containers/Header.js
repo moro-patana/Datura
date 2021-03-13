@@ -36,8 +36,8 @@ export default function Header() {
             <HeaderContent>
                 <HeaderTitle>Datura</HeaderTitle>
                 <HeaderButton onClick={toggleMenu}><img src={menuIcon} alt="menu icon" /></HeaderButton>
-                {showMenu && <NavMenu/>}
             </HeaderContent>
+            {showMenu && <NavMenu/>}
         </HeaderContainer>
     )
 }
